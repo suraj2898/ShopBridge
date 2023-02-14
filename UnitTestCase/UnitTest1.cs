@@ -29,8 +29,7 @@ namespace UnitTestCase
             PagingModel pagingModel = new PagingModel
             {
                 pageNumber = 1,
-                pageSize = 3,
-                _pageSize = 3
+                pageSize = 3
             };
             var result = iproductServices.GetProducts(pagingModel);
             Assert.IsNotNull(result.Result);
